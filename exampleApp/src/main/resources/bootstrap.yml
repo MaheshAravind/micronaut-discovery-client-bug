@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: exampleApp
+  config-client:
+    enabled: true
+
+vault:
+  client:
+    uri: http://localhost:8200
+    token: root
+    config:
+      enabled: true
+    kv-version: V2
